@@ -55,6 +55,8 @@ Version number rules
 
     [<<<numeric>>>] An alternative version numbering scheme with no "special" qualifiers.
     
+    [<<<mercury>>>]  An alternative comparator which uses Mercury's version rules which can handle more than 4 segments.
+    
   The <<<versions-maven-plugin>>> will assume that all version numbers follow the <<<maven>>> scheme unless you tell
   it otherwise.
 
